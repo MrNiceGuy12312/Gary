@@ -30,5 +30,6 @@ public class Character : MonoBehaviour
     public void ApplyDamage(int amount)
     {
         curHitPoints -= amount;
+        Debug.Log("HIT");
     }
 }
