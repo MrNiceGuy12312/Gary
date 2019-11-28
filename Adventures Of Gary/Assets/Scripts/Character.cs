@@ -6,8 +6,12 @@ public class Character : MonoBehaviour
 {
     public int maxHitPoints = 100;
     private int curHitPoints;
+    private HealthBar healthBar;
 
-    // Start is called before the first frame update
+    private void Awake()
+    {
+        healthBar = GetComponentInChildren<HealthBar>();
+    }
     void Start()
     {
         curHitPoints = maxHitPoints;
@@ -30,6 +34,9 @@ public class Character : MonoBehaviour
     public void ApplyDamage(int amount)
     {
         curHitPoints -= amount;
-        Debug.Log("HIT");
+        if (healthBar != null)
+        {
+            healthBar.UpdatePercentage((float)curHitPoints / maxHitPoints);
+        }
     }
 }
