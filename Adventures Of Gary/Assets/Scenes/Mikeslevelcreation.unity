@@ -4569,7 +4569,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 5.21e-43, y: 6.0007584e-25, z: 5.21e-43, w: 6e-44}
+  m_BoundingSphereOverride: {x: 5.888e-42, y: 1.02e-43, z: 2.3874974, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -6496,6 +6496,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Healthbar
       objectReference: {fileID: 0}
+    - target: {fileID: 4175135463151031847, guid: 923dc81f59222bc438ca7ffe186c7fcc,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fb867e82367ebeb48a5270ad9d166028,
+        type: 3}
     - target: {fileID: 4175135463664529757, guid: 923dc81f59222bc438ca7ffe186c7fcc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6601,12 +6607,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 4175135463151031847, guid: 923dc81f59222bc438ca7ffe186c7fcc,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: fb867e82367ebeb48a5270ad9d166028,
-        type: 3}
     - target: {fileID: 4175135463566672463, guid: 923dc81f59222bc438ca7ffe186c7fcc,
         type: 3}
       propertyPath: m_Sprite
