@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AIWanderer : MonoBehaviour
+/*public class AIWanderer : MonoBehaviour
 {
     public float walkSpeed = 5.0f;
     public float walkTurnSpeed = 5.0f;
@@ -19,7 +19,7 @@ public class AIWanderer : MonoBehaviour
     private Animator animController;
     private int runStateHash;
     private int AttackStateHash;
-
+    private CharacterController controller;
     private bool isDead = false;
     private float heading;
 
@@ -33,7 +33,7 @@ public class AIWanderer : MonoBehaviour
     void Awake()
     {
         controller = GetComponent<CharacterController>();
-        animController = GetComponent<animator>();
+        animController = GetComponent<Animator>();
      
       
 
@@ -91,4 +91,4 @@ public class AIWanderer : MonoBehaviour
             navAgent.setDestination(navAgent.transform.position + navAgent.transform.foward * walkSpeed);
         }
     }
-}
+}*/
