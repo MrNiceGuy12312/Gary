@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class RPGCharacterController : MonoBehaviour
+/*public class RPGCharacterController : MonoBehaviour
 {
     public bool walkByDefault = true;
     public float gravity = 20.0f;
@@ -154,4 +154,4 @@ public class RPGCharacterController : MonoBehaviour
     
        
     }
-}
+}*/
