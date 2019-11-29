@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class KnightController : MonoBehaviour
 {
-   public float speed = 4;
-   public float rotSpeed = 80;
-   public float rot = 0f;
-   public float gravity = 8;
+    public float speed = 4;
+    public float rotSpeed = 80;
+    public float rot = 0f;
+    public float gravity = 8;
     public Collider weaponCollider;
 
     Vector3 moveDir = Vector3.zero;
@@ -84,9 +84,9 @@ public class KnightController : MonoBehaviour
     }
     void Attacking()
     {
-       
+
         StartCoroutine (AttackRoutine());
-        
+
     }
     IEnumerator AttackRoutine()
     {
