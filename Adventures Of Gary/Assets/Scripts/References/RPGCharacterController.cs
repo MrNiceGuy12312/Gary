@@ -25,14 +25,14 @@ public class RPGCharacterController : MonoBehaviour
     private Animator animController;
 
     public Collider weaponCollider;
-    private int attackStateHash;
+    
 
     private void Awake()
     {
         controller = GetComponent<CharacterController>();
         animController = GetComponent<Animator>();
 
-        attackStateHash = Animator.StringToHash("UpperTorso.Attack");
+        
     }
 
     // Update is called once per frame
@@ -136,25 +136,22 @@ public class RPGCharacterController : MonoBehaviour
         jumping = isGrounded ? false : jumping;
         animController.SetBool("Jumping", jumping);
 
-        AnimatorStateInfo currentStateInfo = animController.GetCurrentAnimatorStateInfo(1);
-        if (currentStateInfo.fullPathHash != attackStateHash)
+
+
+        if (Input.GetButtonDown("Fire1"))
         {
-            if (Input.GetButtonDown("Fire1"))
+            animController.SetBool("IsAttacking", true);
+            
+        }
+        else
+        {
+            animController.SetBool("IsAttacking", false);
+            if (weaponCollider)
             {
-                animController.SetBool("IsAttacking", true);
-            }
-            else
-            {
-                animController.SetBool("IsAttacking", false);
-                if (weaponCollider)
-                {
-                    weaponCollider.enabled = false;
-                }
+                weaponCollider.enabled = false;
             }
         }
-        else if (weaponCollider)
-        {
-            weaponCollider.enabled = true;
-        }
+    
+       
     }
 }
