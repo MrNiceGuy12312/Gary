@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 1
+  m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.01
@@ -4767,7 +4767,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 2.3509887e-38, z: 0.0000000018777087, w: 0.0000000037252903}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -7893,7 +7893,7 @@ Transform:
   m_LocalScale: {x: 0.10000001, y: 0.1, z: 0.10000001}
   m_Children: []
   m_Father: {fileID: 1431595344}
-  m_RootOrder: 73
+  m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1132447448
 PrefabInstance:
@@ -9788,6 +9788,7 @@ Transform:
   - {fileID: 1115231573}
   - {fileID: 129962899}
   - {fileID: 818931081}
+  - {fileID: 1121179554}
   - {fileID: 882271444}
   - {fileID: 1626839630}
   - {fileID: 2043156630}
@@ -9801,11 +9802,10 @@ Transform:
   - {fileID: 477068761}
   - {fileID: 221398201}
   - {fileID: 1432313564}
-  - {fileID: 1342824056}
-  - {fileID: 320670845}
-  - {fileID: 739244649}
-  - {fileID: 1121179554}
   - {fileID: 1533238666}
+  - {fileID: 1342824056}
+  - {fileID: 739244649}
+  - {fileID: 320670845}
   - {fileID: 2006297326}
   - {fileID: 207015357}
   - {fileID: 1142935531}
