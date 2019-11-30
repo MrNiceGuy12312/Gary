@@ -34,6 +34,10 @@ public class KnightController : MonoBehaviour
             {
                 if (anim.GetBool("Attacking") == true)
                 {
+                    if (weaponCollider)
+                    {
+                        weaponCollider.enabled = true;
+                    }
                     return;
                 }
                 else if (anim.GetBool("Attacking") == false)
