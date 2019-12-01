@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Adventures Of Gary/Assets/Scripts/LevelSelector.cs.meta
 guid: 9e6040a3d7c42004a9461872123a5847
+=======
+guid: 274284fcd90457d4e8e5b1b1f2e2e713
+>>>>>>> master:Adventures Of Gary/Assets/Scripts/WaypointGizmos.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
