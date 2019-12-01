@@ -1813,6 +1813,43 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 207015356}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &209191769 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100050, guid: ba24e610e0a338545b447ff44a3cf1cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 492495996}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &209191771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209191769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83f3a07654e8b6743a6b48c4fb82ab64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChatBackGround: {fileID: 528165450}
+  NPCCharacter: {fileID: 492495997}
+  Name: Johnson
+  sentences:
+  - Man i hope those skeletons dont attack again!
+--- !u!136 &209191772
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209191769}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 1.7
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &221398200
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2140,6 +2177,46 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 271581219}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &285550913 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100050, guid: ba24e610e0a338545b447ff44a3cf1cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 527658743}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &285550915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 285550913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83f3a07654e8b6743a6b48c4fb82ab64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChatBackGround: {fileID: 528165450}
+  NPCCharacter: {fileID: 527658744}
+  Name: Luke
+  sentences:
+  - i heard a rumor about where their leader is...
+  - 'cant remember the guys name though
+
+'
+--- !u!136 &285550916
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 285550913}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 1.7
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &295196683
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3713,6 +3790,43 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 513475169}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &522894053 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100050, guid: ba24e610e0a338545b447ff44a3cf1cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1796469111}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &522894055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 522894053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83f3a07654e8b6743a6b48c4fb82ab64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChatBackGround: {fileID: 528165450}
+  NPCCharacter: {fileID: 1796469112}
+  Name: Aaron
+  sentences:
+  - Dude this guy beside me is so annoying
+--- !u!136 &522894056
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 522894053}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 1.7
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &523323746
 GameObject:
   m_ObjectHideFlags: 0
@@ -4502,6 +4616,43 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 616557982}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &626670156 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100050, guid: ba24e610e0a338545b447ff44a3cf1cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1317779909}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &626670158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626670156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83f3a07654e8b6743a6b48c4fb82ab64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChatBackGround: {fileID: 528165450}
+  NPCCharacter: {fileID: 1317779910}
+  Name: Drew
+  sentences:
+  - Dont listen to the guy next to me. He's nuts
+--- !u!136 &626670159
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626670156}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 1.7
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &649639947
 GameObject:
   m_ObjectHideFlags: 0
@@ -5674,6 +5825,44 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 745078388}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &759553287 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100050, guid: ba24e610e0a338545b447ff44a3cf1cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 696314116}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &759553289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759553287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83f3a07654e8b6743a6b48c4fb82ab64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChatBackGround: {fileID: 528165450}
+  NPCCharacter: {fileID: 696314117}
+  Name: Captain Alex
+  sentences:
+  - i station you troops to stay on guard and eliminate any skeleton in sight!
+  - This enemy is no joke
+--- !u!136 &759553290
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759553287}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 1.7
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &759687133
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7944,9 +8133,17 @@ MonoBehaviour:
   NPCCharacter: {fileID: 1087438634}
   Name: Sir Horatio
   sentences:
-  - hello my name is Sir Horatio
-  - i have been waitong for your presence
-  - find what you can. goodbye
+  - Hello my name is Sir Horatio.
+  - I have been awaiting for your presence.
+  - The town was garrisoned by these knights to protect the towns folk.
+  - We were attacked last night by part of the skeleton army. They have a leader.
+    The Skele King
+  - 'We need your help greatly to defeat the skeleton army and kill the skele king. '
+  - 'We dont know where the Skele king is located but we are almost certain he is
+    somwhere abouts this land. We have lost many good knights.
+
+'
+  - You are our last hope. We're all counting on you. Good Luck.
 --- !u!136 &1026988694
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -8372,7 +8569,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100050, guid: ba24e610e0a338545b447ff44a3cf1cc, type: 3}
       propertyPath: m_Name
-      value: KnightCap (1)
+      value: KnightCap Sir Horatio (1)
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: ba24e610e0a338545b447ff44a3cf1cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8505,6 +8702,43 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1091552618}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1112862020 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100050, guid: ba24e610e0a338545b447ff44a3cf1cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1615870051}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1112862022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112862020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83f3a07654e8b6743a6b48c4fb82ab64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChatBackGround: {fileID: 528165450}
+  NPCCharacter: {fileID: 1615870052}
+  Name: Eric
+  sentences:
+  - I miss my wife. she was killed by one of these darned skeletons.
+--- !u!136 &1112862023
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112862020}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 1.7
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1115231572
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9613,6 +9847,43 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1268870635}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1280630742 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100050, guid: ba24e610e0a338545b447ff44a3cf1cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 947392952}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1280630744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280630742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83f3a07654e8b6743a6b48c4fb82ab64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChatBackGround: {fileID: 528165450}
+  NPCCharacter: {fileID: 947392953}
+  Name: Thrasher
+  sentences:
+  - Man i could go for a juicy mutton right now.
+--- !u!136 &1280630745
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280630742}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 1.7
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1283918669
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14541,7 +14812,7 @@ PrefabInstance:
     - target: {fileID: 2527376198292005730, guid: b11367e7ec353be41ac1cd228325e98a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.58
+      value: -1.636
       objectReference: {fileID: 0}
     - target: {fileID: 2527376198292005730, guid: b11367e7ec353be41ac1cd228325e98a,
         type: 3}
@@ -14586,12 +14857,12 @@ PrefabInstance:
     - target: {fileID: 2527376198292005730, guid: b11367e7ec353be41ac1cd228325e98a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.58
+      value: 0.674
       objectReference: {fileID: 0}
     - target: {fileID: 2527376198292005730, guid: b11367e7ec353be41ac1cd228325e98a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2.28
+      value: 2.053
       objectReference: {fileID: 0}
     - target: {fileID: 2527376198292005730, guid: b11367e7ec353be41ac1cd228325e98a,
         type: 3}
@@ -15177,6 +15448,44 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &1931863010 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100050, guid: ba24e610e0a338545b447ff44a3cf1cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 774482655}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1931863012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931863010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83f3a07654e8b6743a6b48c4fb82ab64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChatBackGround: {fileID: 528165450}
+  NPCCharacter: {fileID: 774482656}
+  Name: Idriss
+  sentences:
+  - I was out there not to long ago
+  - follow the space in the trees if your looking for the base
+--- !u!136 &1931863013
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931863010}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 1.7
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1936400532
 PrefabInstance:
   m_ObjectHideFlags: 0
