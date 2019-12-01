@@ -1,16 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Audio;
+
 
 public class Vision : MonoBehaviour
 {
-    public AudioSource fight;
+   
     private AIBrain brain;
 
     private void Start()
     {
-        fight = GetComponent<AudioSource>();
+       
         
     }
     private void Awake()
@@ -22,7 +22,7 @@ public class Vision : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            fight.Play();
+           
             brain.SpotEnemy(other.transform);
             
 
@@ -33,7 +33,7 @@ public class Vision : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            fight.Stop();
+        
             brain.LostEnemy();
             
         }
