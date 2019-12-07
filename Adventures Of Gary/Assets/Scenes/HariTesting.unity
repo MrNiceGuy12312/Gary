@@ -4494,7 +4494,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 5.611e-42, y: 1.02e-43, z: 6.8816994e+11, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -5464,6 +5464,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1878943476}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &816190106 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2721226145579825017, guid: dfe078ffb72fd564087c58dba179c283,
+    type: 3}
+  m_PrefabInstance: {fileID: 1878943476}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &818931080
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5746,6 +5752,25 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1723010634}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &859298272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859298271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b16c434ad448964793ca611621f0e9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypointContainer: {fileID: 1759935524}
+  minDistance: 3
+  attackRadius: 3
+  weaponCollider: {fileID: 1035859698}
+  bodyDecays: 1
+  bodyDecayDelay: 3
+  player: {fileID: 816190106}
 --- !u!195 &859298277
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -7031,6 +7056,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 480330, guid: 476ff10f814027049bac68615b745867,
     type: 3}
   m_PrefabInstance: {fileID: 1035526674}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1035859698 stripped
+CapsuleCollider:
+  m_CorrespondingSourceObject: {fileID: 182949305815020062, guid: dfe078ffb72fd564087c58dba179c283,
+    type: 3}
+  m_PrefabInstance: {fileID: 1878943476}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1037752208
 PrefabInstance:
@@ -11488,7 +11519,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6939069145763531783, guid: 05a8ad9bbbc548a498b04d712f0bf05d,
+        type: 3}
+      propertyPath: waypointContainer
+      value: 
+      objectReference: {fileID: 1759935524}
+    m_RemovedComponents:
+    - {fileID: 6749724924426931262, guid: 05a8ad9bbbc548a498b04d712f0bf05d, type: 3}
+    - {fileID: 6939069145763531783, guid: 05a8ad9bbbc548a498b04d712f0bf05d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 05a8ad9bbbc548a498b04d712f0bf05d, type: 3}
 --- !u!1001 &1725640957
 PrefabInstance:
@@ -11933,7 +11971,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 274284fcd90457d4e8e5b1b1f2e2e713, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
+  size: 2
   color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!4 &1759935526
 Transform:
@@ -11943,8 +11981,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1759935524}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 102.64244, y: 0.94, z: 99.91}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 1801172485}
   - {fileID: 923325924}
@@ -12768,7 +12806,7 @@ PrefabInstance:
     - target: {fileID: 2721226145579825017, guid: dfe078ffb72fd564087c58dba179c283,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 105.30862
+      value: 115.62
       objectReference: {fileID: 0}
     - target: {fileID: 2721226145579825017, guid: dfe078ffb72fd564087c58dba179c283,
         type: 3}
